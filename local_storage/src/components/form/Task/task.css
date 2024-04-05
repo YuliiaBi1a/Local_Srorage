@@ -1,0 +1,46 @@
+.containerTask {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .containerTaskCompleted {
+    background-color: #65d17e;
+  }
+  
+  .complete {
+    text-decoration: line-through;
+  }
+  
+  .noComplete {
+   color: #dc3545;
+  }
+  
+  #complete, #delete {
+    margin-top: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+  }
+  
+  #complete {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  #complete:hover {
+    background-color: #0056b3;
+  }
+  
+  #delete {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  #delete:hover {
+    background-color: #c82333;
+  }
